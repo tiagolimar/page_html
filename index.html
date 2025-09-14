@@ -3,38 +3,51 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="css/style.css" />
+
         <title>Blog</title>
     </head>
     <body>
-        <h1>Bem-vindo ao meu blog!</h1>
+        <div id="header">
+            <a
+                target="_blank"
+                href="https://pt.wikipedia.org/wiki/The_Dark_Knight"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d1/The_Dark_Knight.jpg/250px-The_Dark_Knight.jpg"
+                    alt="capa do filme do Cavaleiro das Trevas"
+                />
+            </a>
+        </div>
+
+        <h1 class="borda">Bem-vindo ao meu blog!</h1>
         <p>Este é um blog simples criado com HTML.</p>
 
-        <h2>Meus Filmes Favoritos</h2>
-        <ul>
-            <li>Inception</li>
-            <li>The Matrix</li>
-            <li>Interstellar</li>
-        </ul>
-
-        <h2 id="secao1">Top 3 Filmes</h2>
-        <ol>
-            <li>The Shawshank Redemption</li>
-            <li>The Godfather</li>
-            <li>
-                <a href="https://pt.wikipedia.org/wiki/The_Dark_Knight"
-                    >The Dark Knight</a
-                >
-            </li>
-        </ol>
+        <div id="listas">
+            <div id="lista-esquerda">
+                <h2 class="subtitle borda">Meus Filmes Favoritos</h2>
+                <ul>
+                    <li>Inception</li>
+                    <li>The Matrix</li>
+                    <li>Interstellar</li>
+                </ul>
+            </div>
+            <div id="lista-direita">
+                <h2 class="subtitle">Top 3 Filmes</h2>
+                <ol>
+                    <li>The Shawshank Redemption</li>
+                    <li>The Godfather</li>
+                    <li>
+                        <a href="https://pt.wikipedia.org/wiki/The_Dark_Knight"
+                            >The Dark Knight</a
+                        >
+                    </li>
+                </ol>
+            </div>
+        </div>
 
         <img src="img/ai-que-delicia.jpg" width="128" alt="um bolo delicioso" />
-
-        <a target="_blank" href="https://pt.wikipedia.org/wiki/The_Dark_Knight">
-            <img
-                src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d1/The_Dark_Knight.jpg/250px-The_Dark_Knight.jpg"
-                alt="capa do filme do Cavaleiro das Trevas"
-            />
-        </a>
 
         <a href="contato.html">Fale Comigo</a>
     </body>
